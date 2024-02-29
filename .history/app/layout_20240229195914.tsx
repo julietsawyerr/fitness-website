@@ -8,7 +8,7 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   title: "Evogym fitness", 
-  description: "React/Next.js fitness website",
+  description: "React/",
 };
 
 export default function RootLayout({
