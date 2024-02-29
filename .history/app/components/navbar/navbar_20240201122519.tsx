@@ -1,0 +1,17 @@
+import { Bar3Icon, XMarkIcon } from "@heroicons/react/24/solid";
+type Props = {}
+
+
+
+const Navbar = (props: Props) => {
+  const flexBetween = 'flex items-center justify-between'
+  return (
+    <nav>
+      <div 
+        className={`${flexBetween} zw-full py-6 bg-red-300 border-2 border-gray-500`}
+      >navbar</div>
+    </nav>
+  )
+}
+
+export default Navbar;
