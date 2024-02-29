@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
-import { Inter } from "@/app/;
+import { sans, mont } from "@/app/ui/fonts"
+import Navbar from '@/app/components/navbar/navbar'
+import Footer from '@/app/components/footer/footer'
 import "./globals.css";
 
 
@@ -16,7 +18,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={`${sans.variable} ${mont.variable} min-h-screen min-w-full bg-gray-20`}>
+      <Navbar />
+        {children}
+      <Footer />
+      </body>
     </html>
   );
 }
