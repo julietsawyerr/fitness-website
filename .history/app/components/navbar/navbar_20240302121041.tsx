@@ -65,7 +65,7 @@ const Navbar = (props: Props) => {
           <div className={`${flexBetween} mx-auto w-5/6`}>
             <div className={`${flexBetween} 
             w-full gap-16`}>
-                <Image  src='/assets/Logo.png' alt='Evogym-logo' width={113} height={24} />
+                <Image src='/assets/Logo.png' alt='Evogym-logo' width={113} height={24} />
                 
                 {/* Right side */}
                 <div className='hidden w-full sm:flex items-center justify-between'>
